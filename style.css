@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.grid-container {
+  
+  height:600px;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.child-container {
+  border: 1px solid black;
+}
+
+/*.child-container:hover{
+  background-color: black;
+}*/
+
+.clear-btn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.draw{
+  height: 30px;
+width: 50px;
+}
+.clear1{
+height: 30px;
+width: 50px;
+}
+
+.erase{
+height: 30px;
+width: 50px;
+}
